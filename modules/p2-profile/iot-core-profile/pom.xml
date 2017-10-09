@@ -302,7 +302,7 @@
                                     org.wso2.carbon.identity.inbound.auth.oauth2:org.wso2.carbon.identity.oauth.feature:${identity.inbound.auth.oauth.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.provider.server.feature:${identity.inbound.auth.openid.version}
+                                    org.wso2.carbon.identity.inbound.auth.openid:org.wso2.carbon.identity.provider.server.feature:${identity.inbound.auth.openid.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity.framework:org.wso2.carbon.identity.thrift.authentication.feature:${carbon.identity.framework.version}
@@ -362,10 +362,10 @@
                                 </featureArtifactDef>
                                 <!-- Authenticators -->
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.authenticator.requestpath.basicauth.server.feature:${identity.outbound.auth.requestpath.basicauth.version}
+                                    org.wso2.carbon.identity.local.auth.requestpath.basic:org.wso2.carbon.identity.application.authenticator.requestpath.basicauth.server.feature:${identity.outbound.auth.requestpath.basicauth.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
-                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.authenticator.requestpath.oauth.server.feature:${identity.outbound.auth.requestpath.oauth.version}
+                                    org.wso2.carbon.identity.local.auth.requestpath.oauth:org.wso2.carbon.identity.application.authenticator.requestpath.oauth.server.feature:${identity.outbound.auth.requestpath.oauth.version}
                                 </featureArtifactDef>
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity.application.auth.basic:org.wso2.carbon.identity.application.authenticator.basicauth.server.feature:${identity.local.auth.basicauth.version}
